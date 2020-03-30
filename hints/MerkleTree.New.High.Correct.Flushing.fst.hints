@@ -18,7 +18,7 @@
         "refinement_interpretation_Tm_refine_da1b0dfb8283502ec162998a8bbb6431"
       ],
       0,
-      "f7dcb37513642e98419ce0c15945cc6a"
+      "7b1479a0d61b035b9ba3363f64a12282"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_to_olds",
@@ -37,7 +37,7 @@
         "refinement_interpretation_Tm_refine_da1b0dfb8283502ec162998a8bbb6431"
       ],
       0,
-      "c79ee07c99b69bc9348dbdbbd30f0545"
+      "787560b862e7a0a7988a8455c69b645d"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_to_olds",
@@ -131,7 +131,7 @@
         "typing_Spec.Poly1305.size_key", "well-founded-ordering-on-nat"
       ],
       0,
-      "8274b579a9deb1886d9b3b2363e11e5d"
+      "98ec309c4da718c375d299bb851b283b"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_to_olds_hs_equiv",
@@ -150,7 +150,7 @@
         "refinement_interpretation_Tm_refine_da1b0dfb8283502ec162998a8bbb6431"
       ],
       0,
-      "8b1727a21e1351e0acc30ba8af64d773"
+      "cd32671dd012bb5dfe80b94870fafccc"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_to_olds_hs_equiv",
@@ -170,7 +170,7 @@
         "refinement_interpretation_Tm_refine_f6697b482329af39fa62494b612f27f4"
       ],
       0,
-      "09136d614cacfdd47c5de0b17cf6f34f"
+      "7f8e703bf86c9167fc26c42ea8a32e9c"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_to_olds_hs_equiv",
@@ -262,7 +262,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "46fbc9a226655aedef0890dfef5ec0a4"
+      "6301078fd28d5c8baad8dd2dd7c215bf"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_to_merge_preserved",
@@ -284,7 +284,7 @@
         "typing_MerkleTree.New.High.Correct.Flushing.mt_flush_to_olds"
       ],
       0,
-      "87fda64807ecbb38bfd92fb39de40fd2"
+      "a51fe85b2504c16ed982f2ab7268cb79"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_to_merge_preserved",
@@ -305,7 +305,7 @@
         "refinement_interpretation_Tm_refine_f83f9bf6fd85618fec9ce50750a64572"
       ],
       0,
-      "2d7a4da8e4b5171200876019a7b7a799"
+      "c160b401d95c42cfb74e2e7d50260fcb"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_to_merge_preserved",
@@ -424,7 +424,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "d968ba56dcd16b0d8ea8a302b2e33526"
+      "347ef0232fbc09ca48d746f032fd989f"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_to_inv_preserved_",
@@ -444,7 +444,7 @@
         "refinement_interpretation_Tm_refine_da1b0dfb8283502ec162998a8bbb6431"
       ],
       0,
-      "f66d88aa602127c773071b76f0dbd8f9"
+      "ad9a49e25465b93056d44f2721426113"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_to_inv_preserved_",
@@ -460,7 +460,7 @@
         "refinement_interpretation_Tm_refine_da1b0dfb8283502ec162998a8bbb6431"
       ],
       0,
-      "00f9cb2ae80e2d6a400cd7267e00916e"
+      "346717e8ded7b9a510fd8a24b371fdbd"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_to_inv_preserved_",
@@ -472,10 +472,10 @@
         "@fuel_correspondence_MerkleTree.New.High.Correct.Base.merge_hs.fuel_instrumented",
         "@fuel_correspondence_MerkleTree.New.High.Correct.Flushing.mt_flush_to_olds.fuel_instrumented",
         "@fuel_correspondence_MerkleTree.New.High.mt_flush_to_.fuel_instrumented",
-        "@query", "constructor_distinct_FStar.Integers.W31",
+        "@query", "constructor_distinct_FStar.Integers.W32",
         "constructor_distinct_FStar.Integers.W8",
         "constructor_distinct_Lib.IntTypes.U32",
-        "equality_tok_FStar.Integers.W31@tok",
+        "equality_tok_FStar.Integers.W32@tok",
         "equality_tok_FStar.Integers.W8@tok",
         "equality_tok_Lib.IntTypes.U32@tok",
         "equation_Lib.IntTypes.unsigned",
@@ -508,7 +508,7 @@
         "typing_MerkleTree.New.High.hashes", "typing_Spec.Poly1305.size_key"
       ],
       0,
-      "863f5c92c33ed2854677f2d7dafa1491"
+      "cc864e6f7f6c178265adb6191c4c6925"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_to_inv_preserved",
@@ -534,7 +534,7 @@
         "typing_MerkleTree.New.High.__proj__MT__item__j"
       ],
       0,
-      "3c9d712e08281601e9b5983853b12dbf"
+      "66de78da03022cda91604857ad29857c"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_to_inv_preserved",
@@ -597,7 +597,7 @@
         "typing_MerkleTree.New.High.mt_flush_to"
       ],
       0,
-      "eda31e8ed4f2fc344c8178f75b14105b"
+      "bf7c362fc940e997f1746af78d3c80e0"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_inv_preserved",
@@ -627,7 +627,7 @@
         "typing_MerkleTree.New.High.__proj__MT__item__j"
       ],
       0,
-      "78a9b6bf9c686d7f4f4ef12d7795ba5b"
+      "86ee37d3cb18b86389fa4eb998de2e8b"
     ],
     [
       "MerkleTree.New.High.Correct.Flushing.mt_flush_inv_preserved",
@@ -647,7 +647,7 @@
         "typing_MerkleTree.New.High.__proj__MT__item__i"
       ],
       0,
-      "5c3d0405f41a6a04ea0900f14b0f89a6"
+      "e672b78d478d8f5a68ab8958fcc60cd9"
     ]
   ]
 ]

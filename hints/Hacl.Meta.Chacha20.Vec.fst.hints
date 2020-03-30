@@ -49,7 +49,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "abd362d4efd2ed902a949815c0b94b79"
+      "ad20a2364277cefa173b6760a2060139"
     ],
     [
       "Hacl.Meta.Chacha20.Vec.core32xn_double_round_higher",
@@ -134,7 +134,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "12ec06b516aff4964aa7c23ca45cbe76"
+      "e898341edfd470a69a22f08084e6a06e"
     ]
   ]
 ]

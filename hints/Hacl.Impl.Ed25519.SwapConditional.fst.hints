@@ -18,7 +18,7 @@
         "typing_Lib.Buffer.length", "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "ec80d8f01d61fcf550d8ef3bbc5ee0e5"
+      "40acd9155aedabbfcbc3ae9401997373"
     ],
     [
       "Hacl.Impl.Ed25519.SwapConditional.swap_conditional_step",
@@ -131,7 +131,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "893193950c6f5bfff2925764f755712e"
+      "4da821a221519d348dc62719b9d8debc"
     ],
     [
       "Hacl.Impl.Ed25519.SwapConditional.swap_conditional",
@@ -158,7 +158,7 @@
         "typing_FStar.Monotonic.HyperStack.get_hmap"
       ],
       0,
-      "9ffa0631ad9da1ed8a0484a07f0e8fa9"
+      "ab2983806fd3e4ce20d55f35b9875c2e"
     ],
     [
       "Hacl.Impl.Ed25519.SwapConditional.swap_conditional",
@@ -303,7 +303,7 @@
         "typing_tok_Lib.IntTypes.U64@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "74206d206d8f1f25fa212ff11d680141"
+      "b85a2f312ecb690d3cefc52dc579a0ce"
     ],
     [
       "Hacl.Impl.Ed25519.SwapConditional.swap_conditional_inplace",
@@ -330,7 +330,7 @@
         "typing_FStar.Monotonic.HyperStack.get_hmap"
       ],
       0,
-      "44d01639032f89ae1d16c393b1d823fe"
+      "97fb8c80ee4f4722010b5acd24df1d92"
     ],
     [
       "Hacl.Impl.Ed25519.SwapConditional.swap_conditional_inplace",
@@ -458,7 +458,7 @@
         "typing_tok_Lib.IntTypes.U64@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "bfdde75c1d583c632b41e768cd32228f"
+      "fc2c8022a230750219d1660a13fdcc98"
     ]
   ]
 ]

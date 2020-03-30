@@ -44,7 +44,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "d42ff7793e4e95107544993105c44d17"
+      "4470a6a5932dab66e22ac52fc3927eb4"
     ],
     [
       "Spec.Frodo.Params.crypto_publickeybytes",
@@ -86,7 +86,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "b20625357596a7f8c97c9810b4f70907"
+      "6fbe29684ee77b9ce9b6f9e990987daf"
     ],
     [
       "Spec.Frodo.Params.crypto_secretkeybytes",
@@ -134,7 +134,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "f72e722242997e5303cea64e7976dfeb"
+      "e809bef357b546b7867bef3b53cdf4d3"
     ],
     [
       "Spec.Frodo.Params.crypto_ciphertextbytes",
@@ -176,7 +176,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "61f42f53fb23617431c0ea70a561cd85"
+      "beb4a94fcec8798ecf6bd577cfd78d58"
     ],
     [
       "Spec.Frodo.Params.expand_crypto_publickeybytes",
@@ -185,7 +185,7 @@
       1,
       [ "@query", "equation_Spec.Frodo.Params.crypto_publickeybytes" ],
       0,
-      "1af945ce27c38703077180100db53c44"
+      "74c19329b5ff2d7f19972b08c33bdada"
     ],
     [
       "Spec.Frodo.Params.expand_crypto_secretkeybytes",
@@ -194,7 +194,7 @@
       1,
       [ "@query", "equation_Spec.Frodo.Params.crypto_secretkeybytes" ],
       0,
-      "12e40ea1f2df7c09f1526b14a7430870"
+      "4d1469b7795f3eb2fc8d38b60c6ccb5b"
     ],
     [
       "Spec.Frodo.Params.expand_crypto_ciphertextbytes",
@@ -237,7 +237,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "23170399b2feaabcb0032b41535ab97a"
+      "a8e12f8fecf95f40f7ec753153a85d6f"
     ]
   ]
 ]

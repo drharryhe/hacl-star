@@ -144,7 +144,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "e1fb7d02498cc8048d81e54a373013b0"
+      "dbbcc61daeb58bc12314ac5fe5a0166b"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.Steps.point_mul_g_compress",
@@ -195,7 +195,7 @@
         "typing_Lib.Buffer.length", "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "9c3355bf2ad37bfe02a792ad06a78898"
+      "54856e5a85495d75e3a02c184dafc745"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.Steps.point_mul_g_compress",
@@ -343,7 +343,7 @@
         "typing_Spec.Ed25519.point_compress", "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "b01b02911641cfaf9a4d142a9fd1b5cd"
+      "c17932054d418975e5231fb5cdb343d9"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.Steps.sign_step_1",
@@ -410,7 +410,7 @@
         "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "80528ff55adb2dd5e6487f4aeb782dd2"
+      "958f57a35ecf22c644188cfb81455040"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.Steps.sign_step_1",
@@ -499,7 +499,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "7d505ed23872e0cd20a01e0ec5345c04"
+      "692e649e4913f18017436f82cc14ba53"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.Steps.sign_step_2",
@@ -559,7 +559,7 @@
         "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "85c6b33b1358900f43a78c3dafc5fa93"
+      "ac5b67a830b7613560a345766ec72d63"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.Steps.sign_step_2",
@@ -636,7 +636,7 @@
         "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "5620431f51c9cafe3d55d4c97e711d4a"
+      "e34db262e364f9c9f5e474df7fd81ef8"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.Steps.sign_step_3",
@@ -730,7 +730,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "ce772eaa13b93772dae343169e9f5ed5"
+      "a60fa6eaa03115495fbf1110092f9950"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.Steps.sign_step_3",
@@ -896,7 +896,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "2e3fe96b39faae79c008720dc65a81a5"
+      "cba7b8424817dfe62c2e30f3055d0584"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.Steps.sign_step_4",
@@ -961,7 +961,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "e93c039cb1b0ab0caa2c11543753ff1e"
+      "33c54ad4329c8c8c8d454c23c870ba8e"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.Steps.sign_step_4",
@@ -1034,7 +1034,7 @@
         "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "5310222db1dd6483b1397504fe42deba"
+      "e1f4b6f59ba495478a3f3414797c0452"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.Steps.sign_step_5",
@@ -1087,7 +1087,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "ecd85133fff93fa0c9a1203cb7bacfd7"
+      "01a4308578e67e16e47c9a89bb9c5eb4"
     ],
     [
       "Hacl.Impl.Ed25519.Sign.Steps.sign_step_5",
@@ -1228,7 +1228,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "d42b6e0306d83bdced7da47084c96b3c"
+      "ed9f5236a1f8adbd9084d7a26371dffa"
     ]
   ]
 ]

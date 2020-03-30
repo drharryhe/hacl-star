@@ -24,7 +24,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "6caff2cd3de1068041a6a5936a1274d5"
+      "0512253ba819a7f50d4bea90a470b5d7"
     ],
     [
       "Vale.Bignum.Lemmas.seq_add_i",
@@ -33,7 +33,7 @@
       0,
       [ "@query" ],
       0,
-      "871fd440f565824e0635f61a52871e66"
+      "bf41aeca710b6763f1e66ad7f2bc515e"
     ],
     [
       "Vale.Bignum.Lemmas.seq_add",
@@ -55,7 +55,7 @@
         "typing_FStar.Seq.Base.length", "typing_Vale.Def.Words_s.natN"
       ],
       0,
-      "c08f4d20eeb89fa0a4cfd774bbc73231"
+      "cefb8227d1006b0a3503e354751b777d"
     ],
     [
       "Vale.Bignum.Lemmas.seq_scale_lo",
@@ -68,7 +68,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "b96ad75a0e6e96349a2b6cb25a28205a"
+      "531a9405629989111f293365a74b5cb4"
     ],
     [
       "Vale.Bignum.Lemmas.seq_scale_lo",
@@ -91,7 +91,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "4e2986a2da8569e0221cbb27c4a53b62"
+      "1649bde663a9d12593ec4a2074d6921f"
     ],
     [
       "Vale.Bignum.Lemmas.seq_scale_hi",
@@ -104,7 +104,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "47b29856ee8dbf7ebbac8abecc77130d"
+      "130a03b6417678d0984103042ebe7864"
     ],
     [
       "Vale.Bignum.Lemmas.seq_scale_hi",
@@ -127,7 +127,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "53ec01e314bf4d1e815466bafff85e74"
+      "e3eefefad6d0fe5e104fcc398296fa44"
     ],
     [
       "Vale.Bignum.Lemmas.seq_scale",
@@ -140,7 +140,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "1ff67f938bbe3e6538128de1058b3e70"
+      "6bb2b08d596c9d2d2958af22b9ed1cbf"
     ],
     [
       "Vale.Bignum.Lemmas.seq_scale",
@@ -157,7 +157,7 @@
         "refinement_interpretation_Tm_refine_774ba3f728d91ead8ef40be66c9802e5"
       ],
       0,
-      "2746cd872a1d09ad8dabac2156bfdace"
+      "f8ce3551cdc4c5000d023936a981487e"
     ],
     [
       "Vale.Bignum.Lemmas.lemma_sum_seq_left_right",
@@ -172,7 +172,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
       ],
       0,
-      "c29c9d10f18b66d18485ba0beb512d2f"
+      "e3cb770322a0957bccdaa9d2b9e74428"
     ],
     [
       "Vale.Bignum.Lemmas.seq_add_is",
@@ -201,7 +201,7 @@
         "well-founded-ordering-on-nat"
       ],
       0,
-      "cfa4be2e76737ede61efa4fab793ac00"
+      "91c114e008c5228d1b460c8bd3e6f091"
     ],
     [
       "Vale.Bignum.Lemmas.seq_add_is_norm",
@@ -210,7 +210,7 @@
       0,
       [ "@query" ],
       0,
-      "26e6650d1aec51c32627fa4295942860"
+      "5902172ebac6bc8e620f342632467625"
     ],
     [
       "Vale.Bignum.Lemmas.lemma_seq_add_is_norm",
@@ -226,7 +226,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
       ],
       0,
-      "d84a1ca990bd18a0b7632ad06497a371"
+      "3bead90b57fe99a427eecb67e27e9df8"
     ],
     [
       "Vale.Bignum.Lemmas.lemma_seq_add",
@@ -239,7 +239,7 @@
         "refinement_interpretation_Tm_refine_2de20c066034c13bf76e9c0b94f4806c"
       ],
       0,
-      "4a138ad5fa4041b1b016b33fdc1b2223"
+      "7e8ed39dfc22343137e922c898efa790"
     ],
     [
       "Vale.Bignum.Lemmas.lemma_seq_scale_carry",
@@ -253,7 +253,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "b4a85133220834ea129f36254f740a32"
+      "365a94b9e966e0e40be1850aad9101d2"
     ],
     [
       "Vale.Bignum.Lemmas.lemma_seq_scale",
@@ -267,7 +267,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "78f45b9049db995b4a4a238f9b687146"
+      "b647a2ce04d4bb3bc9163c32d35470c8"
     ],
     [
       "Vale.Bignum.Lemmas.ys_init",
@@ -287,7 +287,7 @@
         "typing_FStar.Seq.Base.length", "typing_Vale.Def.Words_s.natN"
       ],
       0,
-      "07529ffc5d6d4c13556a398d24428944"
+      "d8fc535be68ca8573010764251104f98"
     ],
     [
       "Vale.Bignum.Lemmas.zs_init",
@@ -303,7 +303,7 @@
         "refinement_interpretation_Tm_refine_c1424615841f28cac7fc34e92b7ff33c"
       ],
       0,
-      "14acce568cc01a5e65a226b8a34c4ea2"
+      "37f3a05f5627e2e569b1dec724dd366b"
     ],
     [
       "Vale.Bignum.Lemmas.init_ys",
@@ -317,7 +317,7 @@
         "typing_FStar.Seq.Base.length", "typing_Vale.Def.Words_s.natN"
       ],
       0,
-      "347b4e64ec84427037d278f97c995773"
+      "ab4e7b197460e2d61341f0e9a22b9bf5"
     ],
     [
       "Vale.Bignum.Lemmas.init_zs",
@@ -331,7 +331,7 @@
         "typing_FStar.Seq.Base.length", "typing_Vale.Def.Words_s.natN"
       ],
       0,
-      "547e1155d5cf766a2f13e25e8ae76153"
+      "36488e37b28b3e1897bef6cea60ff446"
     ],
     [
       "Vale.Bignum.Lemmas.lemma_scale_add",
@@ -358,7 +358,7 @@
         "typing_FStar.Seq.Base.length", "typing_Vale.Def.Words_s.natN"
       ],
       0,
-      "8c43bb258c20399829c86cb29979d44f"
+      "e8ed4f29d2e7c67228bc3a2e30d3c020"
     ]
   ]
 ]

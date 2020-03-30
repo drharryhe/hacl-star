@@ -8,7 +8,7 @@
       0,
       [ "@query" ],
       0,
-      "add9086574fc38eb65385e8aa8cf4ab4"
+      "6290b774406b43d80e4ddf42b85202e3"
     ],
     [
       "Vale.Math.Poly2.Galois.Lemmas.lemma_mul_zero",
@@ -30,7 +30,7 @@
         "typing_Vale.Math.Poly2.Galois.to_poly"
       ],
       0,
-      "0b69f32181683190eb303f660afbe9b6"
+      "5e13c563f1753a37c4014358dfcb0f9e"
     ],
     [
       "Vale.Math.Poly2.Galois.Lemmas.lemma_mul_one",
@@ -49,7 +49,7 @@
         "typing_Vale.Math.Poly2.Galois.to_poly"
       ],
       0,
-      "fa38a444e7261aa6f8a7e751124d10e6"
+      "bf76925cec0c602b9cce8185af04b10d"
     ],
     [
       "Vale.Math.Poly2.Galois.Lemmas.lemma_mul_commute",
@@ -62,7 +62,7 @@
         "lemma_Vale.Math.Poly2.Galois.lemma_mul"
       ],
       0,
-      "e8242a1efb15ae97b9b4cff734b71f9d"
+      "6302800be1b997930e9e4aed38b5e364"
     ],
     [
       "Vale.Math.Poly2.Galois.Lemmas.lemma_mul_associate",
@@ -80,7 +80,7 @@
         "typing_Vale.Math.Poly2.Galois.to_poly"
       ],
       0,
-      "0addb5f84d26a7c2ccb522d6073ab8f4"
+      "462ac61ce459e402baf48910ee8983c6"
     ],
     [
       "Vale.Math.Poly2.Galois.Lemmas.lemma_mul_distribute_left",
@@ -99,7 +99,7 @@
         "typing_Vale.Math.Poly2.Galois.to_poly"
       ],
       0,
-      "a64f268f45840173ce972265e0459d17"
+      "aeb76780656d7fc047e1e09f599b3679"
     ],
     [
       "Vale.Math.Poly2.Galois.Lemmas.lemma_mul_distribute_right",
@@ -108,7 +108,7 @@
       0,
       [ "@query" ],
       0,
-      "c973dc69d3a7f69fb3e0f512924ea3d2"
+      "26043ace32b3aadfa61e98a3be63bf55"
     ]
   ]
 ]

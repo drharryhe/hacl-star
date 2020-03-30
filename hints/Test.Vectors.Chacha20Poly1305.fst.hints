@@ -28,7 +28,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "82c6777375c67adf8094360411c4b4fc"
+      "88a8727862a002d90d265fa2788c056b"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key0_len",
@@ -41,7 +41,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.key0"
       ],
       0,
-      "74ea35abbce809a8b7ca1ffca650f7cf"
+      "5eb8ca040c310b2cbcd3c4ee14ec6dcf"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce0",
@@ -70,7 +70,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "22a896d47f8eb2ed8854d415e95b4032"
+      "63c3a6c442fff0ce282e4f6574bbc5a1"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce0_len",
@@ -83,7 +83,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.nonce0"
       ],
       0,
-      "d0f2d2841b49363357251015e6da012d"
+      "3d7c305f4103978b5072b3a695ecd7ce"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad0",
@@ -112,7 +112,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "25e8ea9540004e89a917e83ce5ff1186"
+      "d04f0927d8aa2d46b81f43b69b90e98e"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad0_len",
@@ -125,7 +125,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad0"
       ],
       0,
-      "8820ee0d90a4de94944722eabc46a6e3"
+      "5db315f44ec4eb51a384b88cc03bc140"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input0",
@@ -178,7 +178,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad0"
       ],
       0,
-      "f2fa8c77c9e1a3bdfc4b22edae975319"
+      "c429e31174b6cea45d9da6b6ffd9fb42"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input0_len",
@@ -191,7 +191,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.input0"
       ],
       0,
-      "8fc8b2b2213291d4ba9eb7a9d6ba886e"
+      "db9c5cbfb956f9da7276327c31802763"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output0",
@@ -220,7 +220,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "71c703ce21a1d19622768c30f42431b4"
+      "3c833c5f26131d498600638911279545"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output0_len",
@@ -233,7 +233,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.output0"
       ],
       0,
-      "e3379105ce6cce91a007599cab4e3eab"
+      "17ebbb5692a312d5f53e7827228fe93f"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key1",
@@ -262,7 +262,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "e21589a0cafceceba66dcdaafb055327"
+      "bb3453de382befb6a76eb757fc938902"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key1_len",
@@ -275,7 +275,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.key1"
       ],
       0,
-      "d65528cc0b0069ceb803e975a061ccf5"
+      "377c8d6f7db6797f0a507564e9688c64"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce1",
@@ -304,7 +304,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "662af0288a101857bcb406a01f7efb47"
+      "811de40c3d677ad030769d165c53cd29"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce1_len",
@@ -317,7 +317,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.nonce1"
       ],
       0,
-      "a15f876fa3b1afa132d62a7eaa5c667a"
+      "eb16fbd23cd4392d88a303c17573decd"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad1",
@@ -345,7 +345,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "8239e5103c0b2f9f6ca056c8507f6fa5"
+      "635021971032ce8ff66a4d441f27fe61"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad1_len",
@@ -358,7 +358,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad1"
       ],
       0,
-      "789f44aece83b072974a28072725d8b4"
+      "010622e68238cae5fc4f5360667164a0"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input1",
@@ -411,7 +411,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad1"
       ],
       0,
-      "3d6af2034ec040c428baebab5b476c68"
+      "6be3625ca4ed701e739891c4a4f8b976"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input1_len",
@@ -424,7 +424,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.input1"
       ],
       0,
-      "8c04b5ada0a23e474f8109ce195d72ac"
+      "47fab94b01a411f0148149e9d0ab4521"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output1",
@@ -453,7 +453,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "8eaf4e576146132221c3a4bdbc5175d6"
+      "c0d64e8dcf61c57ef6d46b47c5224cd4"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output1_len",
@@ -466,7 +466,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.output1"
       ],
       0,
-      "e0a715e3c2c3ae3278fbc426e2b939c6"
+      "d318945de4139585167012f1aad181ae"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key2",
@@ -495,7 +495,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "561de68d7d6dea54ad9478228e3ee40e"
+      "ebd3dc8c143f6f50af736eb9dd7811ac"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key2_len",
@@ -508,7 +508,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.key2"
       ],
       0,
-      "b4fd5ce6e33ecb78d9d36d7cb3078378"
+      "bd8ba09cf64897d3fb8f0ff6c20970af"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce2",
@@ -537,7 +537,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "15415be26449564e67d440bce5be432f"
+      "925501e216805ff87e3610acfb5b472e"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce2_len",
@@ -550,7 +550,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.nonce2"
       ],
       0,
-      "a4cf4f42594e4113f626ccc17f04f55f"
+      "712f620d0b9945913720a5bc511fc33c"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad2",
@@ -579,7 +579,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "6f75d5c96d6cb5ad57ddd8c2bcd16fd0"
+      "b40334025960baac835b79cc6a0f7435"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad2_len",
@@ -592,7 +592,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad2"
       ],
       0,
-      "aaf4a3e2a45680ab524ec745e867ca11"
+      "5e3d3ae1316d256cd4d1ea33b6cf095e"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input2",
@@ -645,7 +645,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad2"
       ],
       0,
-      "ce25201eb78cd2ee2542caac1cee4c92"
+      "0d3d0e76fdda2883c99a04fe6d247fbf"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input2_len",
@@ -658,7 +658,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.input2"
       ],
       0,
-      "e5410b1c58c35d631c11f66e1c0f0c82"
+      "6d0aeeaf38397adf82ebd697881a91da"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output2",
@@ -687,7 +687,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "d71c090a54fdb8c3333a9a6d4b067d09"
+      "7f558f2d56336c50c40da73ab074c673"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output2_len",
@@ -700,7 +700,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.output2"
       ],
       0,
-      "2d7f4c651c46875de319b1a6b93125a0"
+      "0989626beff95d8ad8c3d21ba59d5e22"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key3",
@@ -729,7 +729,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "a2bb6491ad82507817fc0f5be3487770"
+      "d978257ea534e3f450c0fdfb3805f3a3"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key3_len",
@@ -742,7 +742,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.key3"
       ],
       0,
-      "0ed7d65e8c052d9e080ef1e866b7c88f"
+      "00dd34d45546084b558b8230823a3e3e"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce3",
@@ -771,7 +771,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "53aeacf0af865651c0c668f8d14e8cab"
+      "c2b0fd094e878d6d8086fbc65c4708a8"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce3_len",
@@ -784,7 +784,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.nonce3"
       ],
       0,
-      "b32762d33ab914f52ac3e1ddcf480069"
+      "5e670c7d9311375a7dca34bd7d1dcedf"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad3",
@@ -813,7 +813,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "5e325606562c819789161ce224c9ff1a"
+      "dddbaeede8ef1807c7de51b1ce42ba42"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad3_len",
@@ -826,7 +826,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad3"
       ],
       0,
-      "df79f152caaef5e9f4968f26087c6fc8"
+      "e759a899fa00d4b1306b28a92b329546"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input3",
@@ -879,7 +879,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad3"
       ],
       0,
-      "53de0dcad536f11d5e3948518bf2872f"
+      "1f306ba6cf4b6c43b9bf2d067082bf9f"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input3_len",
@@ -892,7 +892,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.input3"
       ],
       0,
-      "08a0c0ad223e628a953a2e2ecffb2aee"
+      "4d22300cc070690b6f0b4f58480dbe79"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output3",
@@ -921,7 +921,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "8e877936d6b6c741767788b8d680025f"
+      "680a0770cea25cd87a3ffa5d87a09ba8"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output3_len",
@@ -934,7 +934,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.output3"
       ],
       0,
-      "6ad777213db025cdf55ae9eab63b629f"
+      "55229cf59da460a132de13c65ce4775a"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key4",
@@ -963,7 +963,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "2b641efb0c188ad563c8e21d5a09b2be"
+      "e6a2865a18ff89d1d5f9c12a06bb40af"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key4_len",
@@ -976,7 +976,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.key4"
       ],
       0,
-      "48b511906d8a72e081eb82b237808b75"
+      "927a9c991212f740696e1e33ae0a40ce"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce4",
@@ -1005,7 +1005,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "3328ba5efdc17ddbf1469ee32258a46b"
+      "a48b7a1df166d058ed6ed37d055afe3d"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce4_len",
@@ -1018,7 +1018,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.nonce4"
       ],
       0,
-      "36c37269043911e3b398a46ef2c7ea40"
+      "79b97bbcb8921c52673dc46826fe2b43"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad4",
@@ -1046,7 +1046,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "d00e0a2578ea7d23831230499c4ee034"
+      "6465cfcdb48e7a837d5f6db8a5196a3f"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad4_len",
@@ -1059,7 +1059,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad4"
       ],
       0,
-      "f548ad0abb7575de0104866797890a02"
+      "b022f64531c76edfd7380addd8325b34"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input4",
@@ -1112,7 +1112,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad4"
       ],
       0,
-      "c527232adac391052a28b9bdb65b35ae"
+      "ac2ec45d32b02678688f33eff854e2a1"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input4_len",
@@ -1125,7 +1125,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.input4"
       ],
       0,
-      "6693da15677537db459aee113fd7f848"
+      "977d1470ede1e4f547464550f4ee350d"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output4",
@@ -1154,7 +1154,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "fdbdab8cae959a0bc56d792dbb9ffd67"
+      "66634a8b3a08c11e025ea3824a894a82"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output4_len",
@@ -1167,7 +1167,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.output4"
       ],
       0,
-      "d79fa75b1c7d258ad0fc640b8c3ab7dd"
+      "3ddd6482415f96f31289db4106514bf4"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key5",
@@ -1196,7 +1196,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "71c6d42daacc36426a585086fb77876c"
+      "43597942ec028ccaa1c7c0a789f402d6"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key5_len",
@@ -1209,7 +1209,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.key5"
       ],
       0,
-      "a766d2fc49a322e6bc98e49453aaea4d"
+      "9de9347a91ff36f75bebc2595d052e46"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce5",
@@ -1238,7 +1238,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "fa2861001b0a385ecdb0ff7ee078d6c9"
+      "644cfde61ecf160ec5598b3c9d582afe"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce5_len",
@@ -1251,7 +1251,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.nonce5"
       ],
       0,
-      "45f4f56a70d6dfcd10262eadfbaeec6d"
+      "1848d0d1d94fd1a8cea2eba102bfa460"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad5",
@@ -1280,7 +1280,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "9a2490f87d60cfdb2805dea9adf0671f"
+      "5204ecc301af8264d8989bdd66dcbb6c"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad5_len",
@@ -1293,7 +1293,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad5"
       ],
       0,
-      "a134b23e462adcd93084b38eb6878a65"
+      "cda2bf1a53a9ce5ba193da35c42ed560"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input5",
@@ -1346,7 +1346,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad5"
       ],
       0,
-      "6954d94c794eb1d9066e89f05c08e4e4"
+      "d5e8008e0fc5a83336832f7a7689976b"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input5_len",
@@ -1359,7 +1359,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.input5"
       ],
       0,
-      "4333f89189d4f199994cf4a36722551c"
+      "acc029edd22e95da57011ce88aafe2dd"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output5",
@@ -1388,7 +1388,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "8b0391f6c668df6877639655a592f207"
+      "144045419f9be994abc8a33f094ee21e"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output5_len",
@@ -1401,7 +1401,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.output5"
       ],
       0,
-      "89aacb933a1ec6ec119c95e9327452af"
+      "f5acb75275f4809141e9b7e9f1e9a37d"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key6",
@@ -1430,7 +1430,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "113cb3dadf8e2c6fd5b6023092758461"
+      "6ec8560825a586fb2a24070aa93eca9f"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key6_len",
@@ -1443,7 +1443,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.key6"
       ],
       0,
-      "ebc2ab61d043ff1b2b3ecce6fa28dd21"
+      "f4496cbfca0f35a8a0ec2954519b1ff9"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce6",
@@ -1472,7 +1472,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "42e56c08ea72ffa84657fd4e37f8f137"
+      "356b90f628516d5fcf0f508c039a0500"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce6_len",
@@ -1485,7 +1485,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.nonce6"
       ],
       0,
-      "9a1326058f17d92451c93ed584d015c2"
+      "b6150e0b3392ca565d88e55910cf0b8f"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad6",
@@ -1513,7 +1513,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "e46b607cb32ce3c44e2e994f7297d8cd"
+      "74b0ef41622b4edb928a0141d059b488"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad6_len",
@@ -1526,7 +1526,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad6"
       ],
       0,
-      "eba4692d051e7bdc4352a313d3f0eb51"
+      "dc38715f9af9fcd38df4a05a29d1990c"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input6",
@@ -1579,7 +1579,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad6"
       ],
       0,
-      "ac4dd9fd71842aca6f1ab941296c2396"
+      "7c04be1592b4994596d46893ccc112c9"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input6_len",
@@ -1592,7 +1592,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.input6"
       ],
       0,
-      "4002837cf905e433470909b9454452eb"
+      "5d32cd3d39e4dca30808551d6ea8f89d"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output6",
@@ -1621,7 +1621,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "5163cc86f1cac2f9b61e21aa75483fc2"
+      "5c8e1389a0bbf68cdeba19e16a4e99e5"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output6_len",
@@ -1634,7 +1634,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.output6"
       ],
       0,
-      "e23829a38e7cec1826a7fa81f0d9a0a6"
+      "fb89cfc494af1f1a64bf1199cd8c10be"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key7",
@@ -1663,7 +1663,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "2f9b1ef3dde24833c189eafb058873e7"
+      "173f7d12aa4ab1e2700c882c81ac62c5"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key7_len",
@@ -1676,7 +1676,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.key7"
       ],
       0,
-      "cde82bb119f57fb8c01228df119da616"
+      "229863fd9832eba2cdb3118dd71054bd"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce7",
@@ -1705,7 +1705,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "77329c5e7bc94b2230b4d0c95f94582d"
+      "4a66002fda6780b96b046d4660fba236"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce7_len",
@@ -1718,7 +1718,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.nonce7"
       ],
       0,
-      "7c737b47fc08321283a2ed36adb2d8a2"
+      "644e6619a10de31c6872ed037fef0dbf"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad7",
@@ -1746,7 +1746,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "b7dd457afe0926bc6e99b3faf213160f"
+      "995391c6b9ce0b2051a738a215739acb"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad7_len",
@@ -1759,7 +1759,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad7"
       ],
       0,
-      "ddf75bb0a98242534570de934bdf0fd3"
+      "60027caea61286a8621d6ef4ffe48002"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input7",
@@ -1812,7 +1812,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad7"
       ],
       0,
-      "c0649110af81b0079ffebbb7bd43d197"
+      "1f8d0ebf937f44283e5d76fea3baaa53"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input7_len",
@@ -1825,7 +1825,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.input7"
       ],
       0,
-      "0ffcc17a9a763ba1c5c67b8b53c54476"
+      "589dcc5abb431eda787348a5753d6785"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output7",
@@ -1854,7 +1854,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "53ced98676d211205eec1db48fc70236"
+      "5137eeb6f868c2a0c48d2ce1a3558c17"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output7_len",
@@ -1867,7 +1867,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.output7"
       ],
       0,
-      "ce05eae9f9e9e8dbe8915457af73c4dd"
+      "62ae4b3be65c194e4a7cc5661968099a"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key8",
@@ -1896,7 +1896,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "7c6d70ff82ae01dae8a04cab955c6f81"
+      "f5e3ed6ba4ed0b3bbe64536cd8aeeee5"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key8_len",
@@ -1909,7 +1909,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.key8"
       ],
       0,
-      "1d9068cfb31241a60d48deaaf43e47e9"
+      "bf6408287593e483959b1f7863e18a44"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce8",
@@ -1938,7 +1938,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "062df3ea5ad4217b289c12b553f72429"
+      "d63c98d48c502fd2cebaef03bbb1b776"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce8_len",
@@ -1951,7 +1951,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.nonce8"
       ],
       0,
-      "2738b2d1d9a2e9afe329c7cb2256a805"
+      "2f366573c7d0c7b5744b45fe9a421fcd"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad8",
@@ -1980,7 +1980,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "3a21a3d5bae6160883737bface871aa8"
+      "1af1d5a0a0c62a8454c91dc903490cea"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad8_len",
@@ -1993,7 +1993,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad8"
       ],
       0,
-      "1046f68e73d55f03a01d60903d61ded0"
+      "e4ec52e1e285e298958b5aa3cb2349bc"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input8",
@@ -2046,7 +2046,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad8"
       ],
       0,
-      "2eb16e7ae9558b96f8e7b5175f8f61d2"
+      "c064a93c950e92340414f5e483c81231"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input8_len",
@@ -2059,7 +2059,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.input8"
       ],
       0,
-      "0f1ad56199a4211e79d4d4c3351ecad5"
+      "f0e49678d749b1991489278f9bf29276"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output8",
@@ -2088,7 +2088,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "a159845dc3dd09f91e1c808ad142d4b4"
+      "64f62e18639444f751ae46a0483002ef"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output8_len",
@@ -2101,7 +2101,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.output8"
       ],
       0,
-      "6ae2079e8c3e273d346952fe7cf406e4"
+      "6ed0e4928c66434c2210e6f3fa3d817c"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key9",
@@ -2130,7 +2130,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "67d70d383abddcd56f9f20d0d1a5af82"
+      "d2838d64153a5a158fad53339b74314b"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key9_len",
@@ -2143,7 +2143,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.key9"
       ],
       0,
-      "86e5f31f61ae4212f02e78453d1ce8ec"
+      "1dac7c46719ccb1286276900b534d24b"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce9",
@@ -2172,7 +2172,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "64cc64b3371d7d8a1cc827c8d79cf4a0"
+      "d56becd6de54f916192c5a11a7d08e14"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce9_len",
@@ -2185,7 +2185,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.nonce9"
       ],
       0,
-      "955857041290caf0ca60062864e349c6"
+      "ff4f4db0c505fab0e03b9a022b6c29aa"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad9",
@@ -2214,7 +2214,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "6c0fac72c14c834b1a63c5cd4fef8817"
+      "44b0b761e632e44a32c609c2db55b34a"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad9_len",
@@ -2227,7 +2227,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad9"
       ],
       0,
-      "cb2595418c2b11e7ae175cd2709512b4"
+      "ec032bf707facae071322e14e38b2a34"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input9",
@@ -2280,7 +2280,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad9"
       ],
       0,
-      "0840861143222062467db034091bd178"
+      "056a76d88fea14c3b760b146525dbcee"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input9_len",
@@ -2293,7 +2293,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.input9"
       ],
       0,
-      "0bd6009986865462f095e77d4a3253a2"
+      "c4899277bd96e43cc828616c211a6e4b"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output9",
@@ -2322,7 +2322,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "690970c92ae19f085d267b9887ffd333"
+      "e1ed8d863e54a76b4fa1cc9edfa974cf"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output9_len",
@@ -2335,7 +2335,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.output9"
       ],
       0,
-      "7bea2610de5ca68d978d2be9276a40ce"
+      "1f823ab11726a50997eeb9df882fc848"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key10",
@@ -2364,7 +2364,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "308af2cb63704d1bf3abe86118773844"
+      "dd4c633b64afe4fc10d61fb665b3f8da"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key10_len",
@@ -2377,7 +2377,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.key10"
       ],
       0,
-      "06c65bbb1c1ebfb73e7c635eee0fcf9c"
+      "cf4844cc9f7193c0b289330f1fa1723b"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce10",
@@ -2406,7 +2406,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "1f2d57f28067646f8d6e386ee80ebeb8"
+      "417f1d3e3cad8eb3c29e219247b7d108"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce10_len",
@@ -2419,7 +2419,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.nonce10"
       ],
       0,
-      "22386a981a2f2af54b5c1b9b8fe2ee99"
+      "fdebe0815887f533858f4e9283c2a214"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad10",
@@ -2448,7 +2448,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "49e79bf844b6b04652fce3355b1b2eae"
+      "3a91b8b1d794a1d25fcd6e7132d632a5"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad10_len",
@@ -2461,7 +2461,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad10"
       ],
       0,
-      "6cfa4d0051bf8596577243e7be169b0b"
+      "4b23f01df4a99113eab135681b3db539"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input10",
@@ -2514,7 +2514,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad10"
       ],
       0,
-      "3583f35503cae9c11bc550be90cb5db7"
+      "8146c783eced83aaf01baf563e570e0d"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input10_len",
@@ -2527,7 +2527,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.input10"
       ],
       0,
-      "d5907834baac5e814320097c0a0ee417"
+      "f6afa8aaa2ac44bebfca8a1eb7ea881c"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output10",
@@ -2556,7 +2556,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "fd23537414f7828be33609ca9bb4ad62"
+      "ad94e5fa20fd38b9529118ecf9161a83"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output10_len",
@@ -2569,7 +2569,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.output10"
       ],
       0,
-      "9a4f14d7bbce7261fef8936e26bf33bd"
+      "d147f15925607ec7664c8a012d97d8b8"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key11",
@@ -2598,7 +2598,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "41d6b9d790e8a6eae3330a57990c5644"
+      "b5f5f1d0d980dec3879f396cfcbec9e5"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.key11_len",
@@ -2611,7 +2611,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.key11"
       ],
       0,
-      "53d2c5c98de020e6465c792b10c1414d"
+      "36ab1563517fa2448da516a2480ccb69"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce11",
@@ -2640,7 +2640,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "623ac2bf462a0d3f9dea43054e274845"
+      "52be8ba6e256e2f8fb2a69b56e68c33c"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.nonce11_len",
@@ -2653,7 +2653,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.nonce11"
       ],
       0,
-      "5539d2592940003050fb50ca266f86cf"
+      "6f9480fe90a406be4e25908bbb8a0164"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad11",
@@ -2682,7 +2682,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "c86b12da563316fcc29c64165dc7831c"
+      "61337124e6dc2f3b44d81d8808814a6b"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.aad11_len",
@@ -2695,7 +2695,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad11"
       ],
       0,
-      "79cd4a7200f4e2f78daf1fabfa62f3f3"
+      "c06a6d0d6561a0a8ba6fc02077e9a020"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input11",
@@ -2748,7 +2748,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad11"
       ],
       0,
-      "a6f8bb16838d3a48d32c35a413467019"
+      "2809fee53e9129c62df5c4e0b77743c5"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.input11_len",
@@ -2761,7 +2761,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.input11"
       ],
       0,
-      "ff095b3d1c5a758e580720afc400c4e9"
+      "928f570a611a1ba50124bb308bb30d60"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output11",
@@ -2790,7 +2790,7 @@
         "typing_FStar.Monotonic.HyperStack.get_tip"
       ],
       0,
-      "185bd3d22bed8ee2b60dc303a3899629"
+      "805c208c430891447708e8df112b63b6"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.output11_len",
@@ -2803,7 +2803,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.output11"
       ],
       0,
-      "6c9f7b6665464aae86d1667e71875e16"
+      "042876122d885fd000269da325bba008"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.vector",
@@ -2812,7 +2812,7 @@
       0,
       [ "@query" ],
       0,
-      "a8bbecd49dddb9265c5a6f450e999af9"
+      "4114a3400cef1da8b3a8a15f2b669aae"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.__proj__Vector__item__output_len",
@@ -2821,7 +2821,7 @@
       0,
       [ "@query" ],
       0,
-      "990cb768bfa409d92ba4ed129c696f10"
+      "f3c9305e682547463adf840fdd881a18"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.__proj__Vector__item__output_len",
@@ -2834,7 +2834,7 @@
         "projection_inverse_Test.Vectors.Chacha20Poly1305.Vector_output"
       ],
       0,
-      "4765ddb7bbce5b21673c457ae3fe97cb"
+      "1595d3753d016c65f5e03ecada5fa838"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.__proj__Vector__item__input_len",
@@ -2843,7 +2843,7 @@
       0,
       [ "@query" ],
       0,
-      "ea3f11a30149c8ad679daa031442a820"
+      "659a3b378eabcbc3fbb4ff3dc7850707"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.__proj__Vector__item__input_len",
@@ -2855,7 +2855,7 @@
         "projection_inverse_Test.Vectors.Chacha20Poly1305.Vector_input"
       ],
       0,
-      "8c5fafbe0d20587ac6561edf95d84eaf"
+      "522c2325809f2009a2bd77a67c17f6eb"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.__proj__Vector__item__aad",
@@ -2867,7 +2867,7 @@
         "projection_inverse_Test.Vectors.Chacha20Poly1305.Vector_input"
       ],
       0,
-      "dc979e750d05671cb0a5e6d63a759c47"
+      "4d99b161f804e6e3798d11d1438c3689"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.__proj__Vector__item__aad_len",
@@ -2876,7 +2876,7 @@
       0,
       [ "@query" ],
       0,
-      "8d5b5de2192661abb2e4dbf6e6013fb9"
+      "91a99c46b6020f4a7f4fdeaf26bd1e83"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.__proj__Vector__item__aad_len",
@@ -2888,7 +2888,7 @@
         "projection_inverse_Test.Vectors.Chacha20Poly1305.Vector_aad"
       ],
       0,
-      "56023d6ff19f4174d9a6263fe94287e9"
+      "cb914362e3186d3ea98f7b548f602887"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.__proj__Vector__item__nonce_len",
@@ -2897,7 +2897,7 @@
       0,
       [ "@query" ],
       0,
-      "3efca7bc6de712c07db246ab1c885963"
+      "8a8b44e4458a41b6c351fd62167760ea"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.__proj__Vector__item__nonce_len",
@@ -2909,7 +2909,7 @@
         "projection_inverse_Test.Vectors.Chacha20Poly1305.Vector_nonce"
       ],
       0,
-      "020aec754b74a3f06df467d4c444c55c"
+      "99cf72401331ce0ff3708522d3a3d1c6"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.__proj__Vector__item__key_len",
@@ -2918,7 +2918,7 @@
       0,
       [ "@query" ],
       0,
-      "29ae2e9432b5763caa72b9715ac6b884"
+      "57c3939834d96ed8a8d6816fb944373b"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.__proj__Vector__item__key_len",
@@ -2930,7 +2930,7 @@
         "projection_inverse_Test.Vectors.Chacha20Poly1305.Vector_key"
       ],
       0,
-      "626b644f4fc9da7a50d493333554434f"
+      "4f6aef39bc046f67491266b186cddac7"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.vectors",
@@ -2990,7 +2990,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.aad9"
       ],
       0,
-      "9b4671a386225b0cba4fc11cf496ab19"
+      "2f17c2e4cec3a165f31c742632dac34b"
     ],
     [
       "Test.Vectors.Chacha20Poly1305.vectors_len",
@@ -3003,7 +3003,7 @@
         "typing_Test.Vectors.Chacha20Poly1305.vectors"
       ],
       0,
-      "7ac1972603d16456fe61097c78ab737c"
+      "e4d0b76990c892c94b722b03eec24d44"
     ]
   ]
 ]

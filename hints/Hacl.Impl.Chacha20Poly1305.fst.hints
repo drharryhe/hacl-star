@@ -62,7 +62,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "5d56437910f2933156ade665db186bed"
+      "6141627aedd4fd5856dfa32c583fb4ab"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.poly1305_do_",
@@ -208,7 +208,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "4c17e82f403fdac9e0365c0fa8225093"
+      "3cf2cae992027c360ccebb1492bf861c"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.poly1305_do_core_st",
@@ -267,7 +267,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "ada9073178a06afac8edb80bccecaa9b"
+      "9a4e8ee94c14c6d8f3f3a2989ed542c2"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.poly1305_do",
@@ -440,7 +440,6 @@
         "typing_LowStar.Monotonic.Buffer.frameOf",
         "typing_LowStar.Monotonic.Buffer.len",
         "typing_LowStar.Monotonic.Buffer.loc_addresses",
-        "typing_LowStar.Monotonic.Buffer.loc_buffer",
         "typing_LowStar.Monotonic.Buffer.loc_none",
         "typing_LowStar.Monotonic.Buffer.loc_not_unused_in",
         "typing_LowStar.Monotonic.Buffer.loc_regions",
@@ -452,7 +451,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "da947857e44af4e1909ca16a67a406c5"
+      "3b5ae4a4bc716475842787ff126fca5c"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.width_chacha20",
@@ -548,7 +547,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "4b367570dda04ab44a054d8bea62ff9c"
+      "7ee747205f63c70b6975fdb05df9bd35"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.derive_key_poly1305_do",
@@ -784,7 +783,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "8a69e687579d33899148b817513911a8"
+      "345a7d3ebe166b34883b213b2645c440"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.aead_encrypt",
@@ -925,7 +924,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "146fbcc2098ffb6c9c9ce93a81f66fec"
+      "0520c9ceb650acac324141704822148c"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.aead_decrypt",

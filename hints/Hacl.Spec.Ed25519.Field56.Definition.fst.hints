@@ -8,7 +8,7 @@
       0,
       [ "@query" ],
       0,
-      "701675896f8f76ea22aeedfd543ca4bd"
+      "60592caa47d7fa8ea5b45519bcae0f48"
     ],
     [
       "Hacl.Spec.Ed25519.Field56.Definition.pow56",
@@ -17,7 +17,7 @@
       0,
       [ "@query" ],
       0,
-      "eeccca0e88b76475f30baf1235f5065c"
+      "0482aa9a9f20ba74a4057b09bbb72e77"
     ],
     [
       "Hacl.Spec.Ed25519.Field56.Definition.as_nat5",
@@ -36,7 +36,7 @@
         "refinement_interpretation_Tm_refine_4ae12848fac0601da6605bac9d6872f1"
       ],
       0,
-      "7f39f1c78c5de0bdff15ec3dc4a441b6"
+      "83e3497b11a3675f15da00c1fe14d176"
     ],
     [
       "Hacl.Spec.Ed25519.Field56.Definition.as_nat10",
@@ -66,7 +66,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "6be6e6e676743667d78417500e4cfbd0"
+      "f8cdeea9d55f39e0d048f095832427e7"
     ],
     [
       "Hacl.Spec.Ed25519.Field56.Definition.eval_wide9",
@@ -95,7 +95,7 @@
         "typing_tok_Lib.IntTypes.U128@tok"
       ],
       0,
-      "c1b8ef45732009761c2abcb2f280f67c"
+      "bbd41d037b97852fffb1688d7ec8088a"
     ],
     [
       "Hacl.Spec.Ed25519.Field56.Definition.felem_fits",
@@ -108,7 +108,7 @@
         "equation_Lib.IntTypes.unsigned", "projection_inverse_BoxBool_proj_0"
       ],
       0,
-      "a023cb8b1e994d4290b0ca7013071f02"
+      "d005d654b600994b5c75f5d8d8cb57f9"
     ]
   ]
 ]

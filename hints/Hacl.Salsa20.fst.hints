@@ -65,7 +65,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "c162e21b129702bcf5d35f8a12e47503"
+      "7371442b937be4d853fc1faaff1c5164"
     ],
     [
       "Hacl.Salsa20.salsa20_decrypt",
@@ -132,7 +132,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "ad9707aac9510f017d37e77f313f3afc"
+      "dd03b3134095af0140a52ebd3b053e79"
     ],
     [
       "Hacl.Salsa20.salsa20_key_block0",
@@ -192,7 +192,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "201aaf19e89ad9db692df5fb610f2614"
+      "4b5daeccc8927da714ecbfc01289a787"
     ],
     [
       "Hacl.Salsa20.hsalsa20",
@@ -252,7 +252,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "49fbd8057cb1ab036e648d71bafcfc81"
+      "2cc61c8f1e087826931590524c983bfa"
     ]
   ]
 ]

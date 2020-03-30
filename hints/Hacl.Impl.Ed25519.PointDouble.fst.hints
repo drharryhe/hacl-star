@@ -60,7 +60,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "8388437d87954f30cc589021538a6fc0"
+      "a6cd0be3ce7174d02d2515b91eef48c0"
     ],
     [
       "Hacl.Impl.Ed25519.PointDouble.point_double_step_1",
@@ -185,7 +185,7 @@
         "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "0e3066c1e7740c26e859d281c13568a3"
+      "7b59c2554695d1a9e6cd668b170bf2dd"
     ],
     [
       "Hacl.Impl.Ed25519.PointDouble.point_double_step_2",
@@ -231,7 +231,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "3a11c1ab8c76cbe0013fde807e321fcd"
+      "e4c3f6710b3364ef7c904e9a683e5dcb"
     ],
     [
       "Hacl.Impl.Ed25519.PointDouble.point_double_step_2",
@@ -345,7 +345,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "8c1b07c94f22de645a811602caf4515a"
+      "d3d7f77d4a06bfd2bf6346d0a4b94e0a"
     ],
     [
       "Hacl.Impl.Ed25519.PointDouble.point_double_",
@@ -452,7 +452,7 @@
         "typing_tok_Lib.Buffer.MUT@tok"
       ],
       0,
-      "ebebebbdf57a9638d674c61944bc2864"
+      "6e55081f0d630acd8360f1108622bbca"
     ],
     [
       "Hacl.Impl.Ed25519.PointDouble.point_double",
@@ -630,7 +630,7 @@
         "typing_tok_Lib.Buffer.MUT@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "518d169afbc78e11ea80e593b9c8157d"
+      "02fc4057c5c184f9f430da4ff01e7dfb"
     ]
   ]
 ]

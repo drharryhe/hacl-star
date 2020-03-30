@@ -61,10 +61,10 @@ let createL #a init =
   B.alloca_of_list init
 
 let createL_global #a init =
-  IB.igcmalloc_of_list #a root init
+  CB.of_ibuffer (IB.igcmalloc_of_list #a root init)
 
 let recall_contents #a #len b s =
-  B.recall_p (b <: ibuffer a) (cpred s)
+  B.recall_p (CB.to_ibuffer b) (cpred s)
 
 (* JP: why triplicate the code? would it not extract if we just cast i to a monotonic buffer?! *)
 let copy #t #a #len o i =
@@ -244,7 +244,7 @@ val loopi_blocks_f:
       Sequence.repeati_blocks_f (v blocksize) (as_seq h0 inp) spec_f (v nb) (v i) (as_seq h0 w))
 
 let loopi_blocks_f #a #b #blen bs inpLen inp spec_f f nb i w =
-  Math.Lemmas.lemma_mult_lt_right (v bs) (v i) (v nb);
+  Math.Lemmas.lemma_mult_le_right (v bs) (v i) (v nb);
   assert ((v i + 1) * v bs == v i * v bs + v bs);
   assert (v i * v bs + v bs <= v nb * v bs);
   assert (v nb * v bs <= v inpLen);
