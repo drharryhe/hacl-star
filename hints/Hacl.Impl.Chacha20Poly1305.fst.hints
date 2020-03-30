@@ -62,7 +62,7 @@
         "typing_tok_Lib.IntTypes.PUB@tok", "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "6141627aedd4fd5856dfa32c583fb4ab"
+      "653f5ee192310c583c51c39d6fed753a"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.poly1305_do_",
@@ -208,7 +208,7 @@
         "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "3cf2cae992027c360ccebb1492bf861c"
+      "20090132d290fe5b0b1d77e8fa0b1292"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.poly1305_do_core_st",
@@ -267,7 +267,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "9a4e8ee94c14c6d8f3f3a2989ed542c2"
+      "fbef823d5b6c80862d7c585dcfb70402"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.poly1305_do",
@@ -451,7 +451,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "3b5ae4a4bc716475842787ff126fca5c"
+      "4c2565d4817a4a5e6c6c0b86aaf23d40"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.width_chacha20",
@@ -470,7 +470,7 @@
         "typing_Spec.Poly1305.size_key"
       ],
       0,
-      "5ef534585caf14287d339162ae7617e5"
+      "dd48e86be146d39432e3ded1586c9e86"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.derive_key_poly1305_do",
@@ -547,7 +547,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "7ee747205f63c70b6975fdb05df9bd35"
+      "a2dde16469800c7c8abc5f0aa7621871"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.derive_key_poly1305_do",
@@ -720,7 +720,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "140a2a50d1afbaa1a8335e1cded750a6"
+      "ab055ca9d4252ebae719f4f0f9f168c9"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.aead_encrypt_st",
@@ -783,7 +783,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "345a7d3ebe166b34883b213b2645c440"
+      "71a48cd18e0783ce1f3124e2140e0207"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.aead_encrypt",
@@ -858,7 +858,7 @@
         "typing_tok_Lib.IntTypes.U32@tok"
       ],
       0,
-      "9b4c668b3aa3d449d38d01fb83c81776"
+      "ec1a576160d5bffc30c261e83434e3c0"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.aead_decrypt_st",
@@ -924,7 +924,7 @@
         "typing_tok_Lib.IntTypes.U64@tok"
       ],
       0,
-      "0520c9ceb650acac324141704822148c"
+      "c82ca76073a5906450b539f3c4e60aa0"
     ],
     [
       "Hacl.Impl.Chacha20Poly1305.aead_decrypt",
@@ -1104,7 +1104,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "1a3281d4334c75f759e1127a34ebae8e"
+      "b0bf5946f88ce23414cbd48e76a8564c"
     ]
   ]
 ]

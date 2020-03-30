@@ -8,7 +8,7 @@
       0,
       [ "@query" ],
       0,
-      "53d3c78f59f136fe84ef29f00da8ea13"
+      "42e374b51fa15d7e7e235e51439ef423"
     ],
     [
       "EverCrypt.Poly1305.poly1305_vale",
@@ -278,7 +278,7 @@
         "typing_tok_Lib.IntTypes.SEC@tok", "typing_tok_Lib.IntTypes.U8@tok"
       ],
       0,
-      "970943895954dd2aac9e521fe02c7e73"
+      "f7617dcc148fe2bccf0cd8b03d327f52"
     ],
     [
       "EverCrypt.Poly1305.poly1305",
@@ -294,7 +294,7 @@
         "typing_LowStar.Buffer.trivial_preorder"
       ],
       0,
-      "c951e6b57853563601c8a56b5107f6ed"
+      "5a56ee5da6e7ae6ddbf03bd0aaec32b1"
     ],
     [
       "EverCrypt.Poly1305.poly1305",
@@ -303,7 +303,7 @@
       0,
       [ "@query" ],
       0,
-      "84a2c97538ae0b2e62f0072f444fb613"
+      "bb46ad0502e00d0963a91061982054d6"
     ],
     [
       "EverCrypt.Poly1305.poly1305",
@@ -401,7 +401,7 @@
         "typing_tok_Lib.IntTypes.U32@tok", "unit_inversion", "unit_typing"
       ],
       0,
-      "a7acd2f746f7ee7e8fbbd61cc00a9af7"
+      "7ad00f0f4d20ba5a02c16742d37a9586"
     ]
   ]
 ]
