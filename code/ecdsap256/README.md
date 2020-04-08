@@ -1,3 +1,10 @@
+# The purpose of the branch
+
+1) provide a unique (and hopefully the only) buffer for the data we suppose to be secret. After the operations the buffer is cleaned. NB: some compilers could NOT to preserve this property
+
+2) Comparing the buffers at the input
+
+
 # Non-constant-time functions in this folder
 
 ## These functions are not side-channel resistant
