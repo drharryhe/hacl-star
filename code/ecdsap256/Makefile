@@ -10,7 +10,7 @@ test: all
 # Defines rules for producing .checked, .krml, .depend, etc.
 include ../../Makefile.local
 
-FSTAR_ROOTS += ../tests/Hacl.Test.ECDSA.fst
+FSTAR_ROOTS += ./Hacl.Impl.ECDSA.Defensive.fst
 
 #BASE_FLAGS+= -funroll-loops 4
 
@@ -18,7 +18,7 @@ CFLAGS += -I ../../../lib/c -march=native -mtune=native -O3 -Wno-unused-function
 export CFLAGS
 
 dist/Makefile.basic: $(filter-out %/prims.krml,$(ALL_KRML_FILES))
-	$(KRML) $^ -o libecdsa.a $(BASE_FLAGS) $(ECDSA_BUNDLE) \
+	$(KRML) $^ -o libecdsa.a $(BASE_FLAGS) $(DECDSA_BUNDLE) \
 	  -tmpdir dist \
 	  -add-include '"lib_intrinsics.h"' \
 	  -no-prefix 'Hacl.Test.ECDSA' \
@@ -32,8 +32,8 @@ dist/libecdsa.a: dist/Hacl_ECDSA.o
 dist/%.o: dist/Makefile.basic
 	$(MAKE) -C dist -f Makefile.basic $(notdir $@)
 
-dist/Hacl_Test_ECDSA.exe: dist/Hacl_ECDSA.o dist/Hacl_Test_ECDSA.o \
-	$(KREMLIN_HOME)/kremlib/dist/generic/libkremlib.a dist/libecdsa.a
+# dist/Hacl_Test_ECDSA.exe: dist/Hacl_ECDSA.o dist/Hacl_Test_ECDSA.o \
+# 	$(KREMLIN_HOME)/kremlib/dist/generic/libkremlib.a dist/libecdsa.a
 
 %.exe:
 	$(CC) $(CFLAGS) -flto $^ -o $@
