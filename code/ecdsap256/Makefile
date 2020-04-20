@@ -21,6 +21,7 @@ dist/Makefile.basic: $(filter-out %/prims.krml,$(ALL_KRML_FILES))
 	$(KRML) $^ -o libecdsa.a $(BASE_FLAGS) $(DECDSA_BUNDLE) \
 	  -tmpdir dist \
 	  -add-include '"lib_intrinsics.h"' \
+	  -add-include '"lib_zeroing_m.c"' \
 	  -no-prefix 'Hacl.Test.ECDSA' \
 	  -skip-compilation
 

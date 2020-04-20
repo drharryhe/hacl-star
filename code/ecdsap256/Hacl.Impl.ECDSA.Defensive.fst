@@ -11,7 +11,7 @@ open Lib.ByteSequence
 open Spec.ECDSAP256.Definition
 
 open Spec.Hash.Definitions
-
+open Lib.Memzero2
 
 assume val ecdsa_signature: alg: hash_alg {SHA2_256? alg \/ SHA2_384? alg \/ SHA2_512? alg} -> result: lbuffer uint8 (size 64) -> mLen: size_t -> m: lbuffer uint8 mLen ->
   privKey: lbuffer uint8 (size 32) -> 
@@ -38,22 +38,14 @@ assume val ecdsa_signature: alg: hash_alg {SHA2_256? alg \/ SHA2_384? alg \/ SHA
   )
 
 
-val returnRandom: unit -> Tot uint64
-
-let returnRandom () = 
-  (* for now random is this value *)
-  (u64 15624032632068572989)
-
 
 val cleanUpCritical: critical : lbuffer uint64 (size 4) -> Stack unit
   (requires fun h -> live h critical)
   (ensures fun h0 _ h1 -> modifies (loc critical) h0 h1)
 
 let cleanUpCritical critical = 
-  upd critical (size 0) (returnRandom ());
-  upd critical (size 1) (returnRandom ());
-  upd critical (size 2) (returnRandom ());
-  upd critical (size 3) (returnRandom())
+  mem_zero_u64 (size 4) critical;
+  admit()
 
 
 val lessThanOrderU8: i: lbuffer uint8 (size 32) -> critical: lbuffer uint64 (size 4) -> Stack uint64 
