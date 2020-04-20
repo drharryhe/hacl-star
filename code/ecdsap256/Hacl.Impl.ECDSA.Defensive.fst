@@ -62,6 +62,7 @@ val sub4: x: felem ->  result: felem ->
     (ensures fun h0 c h1 -> modifies (loc result) h0 h1 /\ (if (nat_from_intseq_be (as_seq h0 x) >= prime_p256_order) then uint_v c = 0 else uint_v c = 1))
 
 let sub4 x result = 
+  let h0 = ST.get() in 
     let r0 = sub result (size 0) (size 1) in 
     let r1 = sub result (size 1) (size 1) in 
     let r2 = sub result (size 2) (size 1) in 
@@ -69,16 +70,53 @@ let sub4 x result =
 
     recall_contents prime256order_buffer (Lib.Sequence.of_list p256_order_prime_list);
 
-    let cc = sub_borrow_u64 (u64 0) x.(size 3) prime256order_buffer.(size 3) r0 in 
-    let cc = sub_borrow_u64 cc x.(size 2) prime256order_buffer.(size 2) r1 in 
-    let cc = sub_borrow_u64 cc x.(size 1) prime256order_buffer.(size 1) r2 in 
-    let cc = sub_borrow_u64 cc x.(size 0) prime256order_buffer.(size 0) r3 in 
+    let cc0 = sub_borrow_u64 (u64 0) x.(size 3) prime256order_buffer.(size 0) r0 in 
+      let h1 = ST.get() in 
+    let cc1 = sub_borrow_u64 cc0 x.(size 2) prime256order_buffer.(size 1) r1 in 
+      let h2 = ST.get() in 
+    let cc2 = sub_borrow_u64 cc1 x.(size 1) prime256order_buffer.(size 2) r2 in 
+      let h3 = ST.get() in 
+    let cc3 = sub_borrow_u64 cc2 x.(size 0) prime256order_buffer.(size 3) r3 in 
+      let h4 = ST.get() in 
+
+    let open Lib.Sequence in 
+
+    nat_from_intseq_be_slice_lemma (as_seq h0 x) 3;
+    nat_from_intseq_be_lemma0 (slice (as_seq h0 x) 3 4);
+    
+    assert(nat_from_intseq_be (as_seq h0 x) == 
+      v (index (as_seq h0 x) 3)  + 
+      pow2 64 * nat_from_intseq_be (slice (as_seq h0 x) 0 3));
+
+    assert(disjoint prime256order_buffer result);
+
+
+	 assert(
+	     uint_v (index (as_seq h4 r3) 0) * pow2 64 * pow2 64 * pow2 64 
+	   + uint_v (index (as_seq h4 r2) 0) * pow2 64 * pow2 64
+	   + uint_v (index (as_seq h4 r1) 0) * pow2 64 
+	   + uint_v (index (as_seq h4 r0) 0) 
+	   
+	   - v cc3 * pow2 64  * pow2 64 * pow2 64 * pow2 64 = 
+	   
+	     v (index (as_seq h0 x) 0) * pow2 64 * pow2 64 * pow2 64 
+	   + v (index (as_seq h0 x) 1) * pow2 64 * pow2 64 
+	   + v (index (as_seq h0 x) 2) * pow2 64 
+	   + v (index (as_seq h0 x) 3) 
+
+- prime_p256_order);  
+
+
+
+
+
+    admit();
 
       assert_norm (pow2 64 * pow2 64 = pow2 128);
       assert_norm (pow2 64 * pow2 64 * pow2 64 = pow2 192);
       assert_norm (pow2 64 * pow2 64 * pow2 64 * pow2 64 = pow2 256);
     admit();
-    cc
+    cc3
     
 
 
