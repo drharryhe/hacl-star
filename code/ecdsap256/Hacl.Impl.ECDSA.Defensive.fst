@@ -41,11 +41,10 @@ assume val ecdsa_signature: alg: hash_alg {SHA2_256? alg \/ SHA2_384? alg \/ SHA
 
 val cleanUpCritical: critical : lbuffer uint64 (size 4) -> Stack unit
   (requires fun h -> live h critical)
-  (ensures fun h0 _ h1 -> modifies (loc critical) h0 h1)
+  (ensures fun h0 _ h1 -> modifies (loc critical) h0 h1 /\ as_seq h1 critical == Seq.create 4 (u64 0))
 
 let cleanUpCritical critical = 
-  mem_zero_u64 (size 4) critical;
-  admit()
+  mem_zero_u64 (size 4) critical
 
 
 val lessThanOrderU8: i: lbuffer uint8 (size 32) -> critical: lbuffer uint64 (size 4) -> Stack uint64 
