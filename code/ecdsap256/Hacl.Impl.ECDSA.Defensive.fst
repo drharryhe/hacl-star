@@ -12,6 +12,11 @@ open Spec.ECDSAP256.Definition
 
 open Spec.Hash.Definitions
 open Lib.Memzero2
+open Hacl.Impl.LowLevel
+
+open Spec.P256.Lemmas
+open Hacl.Impl.ECDSA.MontgomeryMultiplication
+
 
 assume val ecdsa_signature: alg: hash_alg {SHA2_256? alg \/ SHA2_384? alg \/ SHA2_512? alg} -> result: lbuffer uint8 (size 64) -> mLen: size_t -> m: lbuffer uint8 mLen ->
   privKey: lbuffer uint8 (size 32) -> 
@@ -37,6 +42,7 @@ assume val ecdsa_signature: alg: hash_alg {SHA2_256? alg \/ SHA2_384? alg \/ SHA
     )    
   )
 
+#set-options "--fuel 0 --ifuel 0 --z3rlimit 200"
 
 
 val cleanUpCritical: critical : lbuffer uint64 (size 4) -> Stack unit
@@ -47,14 +53,51 @@ let cleanUpCritical critical =
   mem_zero_u64 (size 4) critical
 
 
-val lessThanOrderU8: i: lbuffer uint8 (size 32) -> critical: lbuffer uint64 (size 4) -> Stack uint64 
-  (requires fun h -> live h i /\ disjoint i critical)
-  (ensures fun h0 r h1 -> modifies (loc critical) h0 h1 /\ uint_v r == 0 ==> nat_from_bytes_be (as_seq h0 i) < prime_p256_order)
+open Lib.IntTypes.Intrinsics
+open FStar.Mul
 
-let lessThanOrderU8 i critical = 
-  admit();
+val sub4: x: felem ->  result: felem -> 
+  Stack uint64
+    (requires fun h -> live h x /\ live h result /\ disjoint x result)
+    (ensures fun h0 c h1 -> modifies (loc result) h0 h1 /\ (if (nat_from_intseq_be (as_seq h0 x) >= prime_p256_order) then uint_v c = 0 else uint_v c = 1))
+
+let sub4 x result = 
+    let r0 = sub result (size 0) (size 1) in 
+    let r1 = sub result (size 1) (size 1) in 
+    let r2 = sub result (size 2) (size 1) in 
+    let r3 = sub result (size 3) (size 1) in 
+
+    recall_contents prime256order_buffer (Lib.Sequence.of_list p256_order_prime_list);
+
+    let cc = sub_borrow_u64 (u64 0) x.(size 3) prime256order_buffer.(size 3) r0 in 
+    let cc = sub_borrow_u64 cc x.(size 2) prime256order_buffer.(size 2) r1 in 
+    let cc = sub_borrow_u64 cc x.(size 1) prime256order_buffer.(size 1) r2 in 
+    let cc = sub_borrow_u64 cc x.(size 0) prime256order_buffer.(size 0) r3 in 
+
+      assert_norm (pow2 64 * pow2 64 = pow2 128);
+      assert_norm (pow2 64 * pow2 64 * pow2 64 = pow2 192);
+      assert_norm (pow2 64 * pow2 64 * pow2 64 * pow2 64 = pow2 256);
+    admit();
+    cc
+    
+
+
+val lessThanOrderU8: i: lbuffer uint8 (size 32) -> critical: lbuffer uint64 (size 4) -> critical1: lbuffer uint64 (size 4) -> Stack uint64 
+  (requires fun h -> live h i /\ live h critical /\ live h critical1 /\ disjoint i critical /\ disjoint critical critical1)
+  (ensures fun h0 r h1 -> modifies (loc critical |+| loc critical1) h0 h1 /\  uint_v r == 0 ==> nat_from_bytes_be (as_seq h0 i) < prime_p256_order)
+
+let lessThanOrderU8 i critical critical1 = 
+    let h0 = ST.get() in 
+  toUint64 i critical;
+    let h1 = ST.get() in 
+    Lib.ByteSequence.uints_from_bytes_be_nat_lemma #U64 #_ #4 (as_seq h0 i);
+    
+  let carry = sub4 critical  critical1 in 
+  let less = eq_mask carry (u64 0) in 
+  eq_mask_lemma carry (u64 0);
   cleanUpCritical critical;
-  (u64 0)
+  cleanUpCritical critical1;
+  less
 
 
 assume val compareTo0TwoVariablesNotSC: a: uint64 -> b: uint64 ->
