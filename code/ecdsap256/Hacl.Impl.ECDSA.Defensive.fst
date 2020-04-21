@@ -85,8 +85,6 @@ let lessThanOrderU8 i critical critical1 =
   let carry = sub4 critical  critical1 in 
   let less = eq_mask carry (u64 0) in 
   eq_mask_lemma carry (u64 0);
-  cleanUpCritical critical;
-  cleanUpCritical critical1;
   less
 
 
@@ -145,6 +143,8 @@ let ecdsa_signature_defensive alg result mLen m privKey k =
 	    begin
 	      let h1 = ST.get() in 
 	      let r = ecdsa_signature_defensive alg result mLen m privKey k cr0 cr1 in 
+	      cleanUpCritical cr0;
+	      cleanUpCritical cr1;
 	      pop_frame();
 	      r
 	    end
