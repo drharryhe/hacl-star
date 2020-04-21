@@ -82,40 +82,16 @@ let sub4 x result =
     let open Lib.Sequence in 
 
     nat_from_intseq_be_slice_lemma (as_seq h0 x) 3;
-    nat_from_intseq_be_lemma0 (slice (as_seq h0 x) 3 4);
+    nat_from_intseq_be_slice_lemma (slice (as_seq h0 x) 0 3) 2;
+    nat_from_intseq_be_slice_lemma (slice (as_seq h0 x) 0 2) 1;
     
-    assert(nat_from_intseq_be (as_seq h0 x) == 
-      v (index (as_seq h0 x) 3)  + 
-      pow2 64 * nat_from_intseq_be (slice (as_seq h0 x) 0 3));
+    nat_from_intseq_be_lemma0 (slice (as_seq h0 x) 3 4);
+    nat_from_intseq_be_lemma0 (slice (as_seq h0 x) 2 3);
+    nat_from_intseq_be_lemma0 (slice (as_seq h0 x) 1 2);
+    nat_from_intseq_be_lemma0 (slice (as_seq h0 x) 0 1);
 
     assert(disjoint prime256order_buffer result);
-
-
-	 assert(
-	     uint_v (index (as_seq h4 r3) 0) * pow2 64 * pow2 64 * pow2 64 
-	   + uint_v (index (as_seq h4 r2) 0) * pow2 64 * pow2 64
-	   + uint_v (index (as_seq h4 r1) 0) * pow2 64 
-	   + uint_v (index (as_seq h4 r0) 0) 
-	   
-	   - v cc3 * pow2 64  * pow2 64 * pow2 64 * pow2 64 = 
-	   
-	     v (index (as_seq h0 x) 0) * pow2 64 * pow2 64 * pow2 64 
-	   + v (index (as_seq h0 x) 1) * pow2 64 * pow2 64 
-	   + v (index (as_seq h0 x) 2) * pow2 64 
-	   + v (index (as_seq h0 x) 3) 
-
-- prime_p256_order);  
-
-
-
-
-
-    admit();
-
-      assert_norm (pow2 64 * pow2 64 = pow2 128);
-      assert_norm (pow2 64 * pow2 64 * pow2 64 = pow2 192);
-      assert_norm (pow2 64 * pow2 64 * pow2 64 * pow2 64 = pow2 256);
-    admit();
+    
     cc3
     
 
@@ -138,9 +114,16 @@ let lessThanOrderU8 i critical critical1 =
   less
 
 
-assume val compareTo0TwoVariablesNotSC: a: uint64 -> b: uint64 ->
+(* This function is not SC resistant *)
+val compareTo0TwoVariablesNotSC: a: uint64 -> b: uint64 ->
   Tot (r : bool {r = (uint_v a = 0 && uint_v b = 0)})
 
+let compareTo0TwoVariablesNotSC a b = 
+  let open Hacl.Impl.LowLevel.RawCmp in 
+  let firstZero = eq_0_u64 a in 
+  let secondZero = eq_0_u64 b in 
+  firstZero && secondZero
+  
 
 val ecdsa_signature_defensive: alg: hash_alg -> result: lbuffer uint8 (size 64) -> mLen: size_t -> m: lbuffer uint8 mLen ->
   privKey: lbuffer uint8 (size 32) -> 
@@ -167,9 +150,6 @@ val ecdsa_signature_defensive: alg: hash_alg -> result: lbuffer uint8 (size 64) 
     )
 
 
-#set-options "--z3rlimit 300"
-
-
 let ecdsa_signature_defensive alg result mLen m privKey k = 
   (*SHA2_256? alg \/ SHA2_384? alg \/ SHA2_512? alg *)
   push_frame();  
@@ -178,8 +158,8 @@ let ecdsa_signature_defensive alg result mLen m privKey k =
       begin
 	let cr0 = create (size 4) (u64 0) in 
 	let cr1 = create (size 4) (u64 0) in  
-	let less0 = lessThanOrderU8 privKey cr0 in 
-	let less1 = lessThanOrderU8 k cr0 in 
+	let less0 = lessThanOrderU8 privKey cr0 cr1 in 
+	let less1 = lessThanOrderU8 k cr0 cr1 in 
       (* having if here to leak only if the private data is less than order or not *)
 	let flagLessOrder = compareTo0TwoVariablesNotSC less0 less1 in 
 	  if flagLessOrder then 
