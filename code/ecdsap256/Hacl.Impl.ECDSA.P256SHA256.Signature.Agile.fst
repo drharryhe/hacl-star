@@ -199,19 +199,26 @@ let ecdsa_signature_step6 result kFelem z r da =
 val ecdsa_signature_core: alg: hash_alg {SHA2_256? alg \/ SHA2_384? alg \/ SHA2_512? alg}  -> r: felem -> s: felem -> mLen: size_t -> m: lbuffer uint8 mLen ->  
   privKeyAsFelem: felem  -> 
   k: lbuffer uint8 (size 32) -> 
+  kAsFelem: felem -> 
   Stack uint64
   (requires fun h -> 
-    live h r /\ live h s /\ live h m /\ live h privKeyAsFelem /\ live h k /\
+    live h r /\ live h s /\ live h m /\ live h privKeyAsFelem /\ live h k /\ live h kAsFelem /\
     disjoint privKeyAsFelem r /\
     disjoint privKeyAsFelem s /\
     disjoint k r /\
     disjoint r s /\   
+    
+    disjoint k kAsFelem /\
+    disjoint kAsFelem r /\
+    disjoint kAsFelem s /\
+    disjoint kAsFelem privKeyAsFelem /\
+    disjoint kAsFelem m /\
     as_nat h privKeyAsFelem < prime_p256_order /\
     as_nat h s == 0 /\
     nat_from_bytes_be (as_seq h k) < prime_p256_order
   )
   (ensures fun h0 flag h1 -> 
-    modifies (loc r |+| loc s) h0 h1 /\
+    modifies (loc r |+| loc s |+| loc kAsFelem) h0 h1 /\
     (
       assert_norm (pow2 32 < pow2 61); 
       assert_norm (pow2 32 < pow2 125);
@@ -230,27 +237,30 @@ val ecdsa_signature_core: alg: hash_alg {SHA2_256? alg \/ SHA2_384? alg \/ SHA2_
   else 
     uint_v flag == 0
       )
-    )
+    ) 
   )
 
-let ecdsa_signature_core alg r s mLen m privKeyAsFelem k = 
+
+let ecdsa_signature_core alg r s mLen m privKeyAsFelem k kAsFelem = 
+  assert_norm (pow2 32 < pow2 61); 
   push_frame();
-  let h0 = ST.get() in 
+    let h0 = ST.get() in 
   let hashAsFelem = create (size 4) (u64 0) in     
   let tempBuffer = create (size 100) (u64 0) in 
-  let kAsFelem = create (size 4) (u64 0) in 
   toUint64ChangeEndian k kAsFelem;
+    let h1 = ST.get() in 
   ecdsa_signature_step12 alg mLen m hashAsFelem;
-  let h1 = ST.get() in 
-  lemma_core_0 kAsFelem h1;
+  lemma_core_0 kAsFelem h1; 
+    let h2 = ST.get() in 
   Spec.ECDSA.changeEndianLemma (uints_from_bytes_be (as_seq h0 k));
   uints_from_bytes_be_nat_lemma #U64 #_ #4 (as_seq h0 k);
   let step5Flag = ecdsa_signature_step45 r k tempBuffer in 
-  assert_norm (pow2 32 < pow2 61);
   ecdsa_signature_step6 s kAsFelem hashAsFelem r privKeyAsFelem;  
   let sIsZero = isZero_uint64_CT s in 
   logor_lemma step5Flag sIsZero;
   pop_frame(); 
+
+
   logor step5Flag sIsZero
 
 
@@ -284,9 +294,13 @@ let ecdsa_signature alg result mLen m privKey k =
   push_frame();
   let h0 = ST.get() in 
   assert_norm (pow2 32 < pow2 61); 
-  let privKeyAsFelem = create (size 4) (u64 0) in 
-  let r = create (size 4) (u64 0) in 
-  let s = create (size 4) (u64 0) in 
+    let tempBuffer = create (size 16) (u64 0) in 
+   
+    let kAsFelem = sub tempBuffer (size 0) (size 4) in 
+    let privKeyAsFelem = sub tempBuffer (size 4) (size 4) in 
+    let r = sub tempBuffer (size 8) (size 4) in 
+    let s = sub tempBuffer (size 12) (size 4) in 
+    
   let resultR = sub result (size 0) (size 32) in 
   let resultS = sub result (size 32) (size 32) in 
   toUint64ChangeEndian privKey privKeyAsFelem;
@@ -295,7 +309,80 @@ let ecdsa_signature alg result mLen m privKey k =
   lemma_core_0 privKeyAsFelem h1;
   Spec.ECDSA.changeEndianLemma (uints_from_bytes_be (as_seq h0 privKey));
   uints_from_bytes_be_nat_lemma #U64 #_ #4 (as_seq h1 privKey);    
-  let flag = ecdsa_signature_core alg r s mLen m privKeyAsFelem k in 
+  let flag = ecdsa_signature_core alg r s mLen m privKeyAsFelem k kAsFelem in 
+
+  let h2 = ST.get() in 
+  
+  changeEndian r;
+  toUint8 r resultR;
+  lemma_core_0 r h2;
+  lemma_nat_from_to_intseq_le_preserves_value 4 (as_seq h2 r);
+
+  changeEndian s;
+  toUint8 s resultS;
+  let h3 = ST.get() in 
+  lemma_core_0 s h2;
+  lemma_nat_from_to_intseq_le_preserves_value 4 (as_seq h2 s);
+
+  Spec.ECDSA.changeEndian_le_be (as_nat h2 r);
+  Spec.ECDSA.changeEndian_le_be (as_nat h2 s);
+
+  pop_frame();
+  flag  
+
+
+
+val ecdsa_signature_defensive: alg: hash_alg {SHA2_256? alg \/ SHA2_384? alg \/ SHA2_512? alg} -> result: lbuffer uint8 (size 64) -> mLen: size_t -> m: lbuffer uint8 mLen ->
+  privKey: lbuffer uint8 (size 32) -> 
+  k: lbuffer uint8 (size 32) -> 
+  critical0: felem -> 
+  critical1: felem -> 
+  Stack uint64
+  (requires fun h -> 
+    live h result /\ live h m /\ live h privKey /\ live h k /\ live h critical0 /\ live h critical1 /\
+    
+    disjoint critical0 m /\ disjoint critical0 privKey /\ disjoint critical0 k /\ disjoint critical0 m /\
+    disjoint critical1 m /\ disjoint critical1 privKey /\ disjoint critical1 k /\ disjoint critical1 m /\
+    disjoint critical0 critical1 /\
+    
+    disjoint result m /\
+    disjoint result privKey /\
+    disjoint result k /\
+    nat_from_bytes_be (as_seq h privKey) < prime_p256_order /\
+    nat_from_bytes_be (as_seq h k) < prime_p256_order
+  )
+  (ensures fun h0 flag h1 -> 
+    modifies (loc result |+| loc critical0 |+| loc critical1) h0 h1 /\
+     (assert_norm (pow2 32 < pow2 61);
+      let resultR = gsub result (size 0) (size 32) in 
+      let resultS = gsub result (size 32) (size 32) in 
+      let r, s, flagSpec = Spec.ECDSA.ecdsa_signature_agile alg (uint_v mLen) (as_seq h0 m) (as_seq h0 privKey) (as_seq h0 k) in 
+      as_seq h1 resultR == nat_to_bytes_be 32 r /\
+      as_seq h1 resultS == nat_to_bytes_be 32 s /\
+      flag == flagSpec 
+    )    
+  )
+
+#reset-options "--z3rlimit 400"
+
+let ecdsa_signature_defensive alg result mLen m privKey k critical0 critical1 = 
+  push_frame();
+  let h0 = ST.get() in 
+  assert_norm (pow2 32 < pow2 61); 
+    let tempBuffer = create (size 8) (u64 0) in 
+    
+    let r = sub tempBuffer (size 0) (size 4) in 
+    let s = sub tempBuffer (size 4) (size 4) in 
+    
+  let resultR = sub result (size 0) (size 32) in 
+  let resultS = sub result (size 32) (size 32) in 
+  toUint64ChangeEndian privKey critical0;
+
+  let h1 = ST.get() in 
+  lemma_core_0 critical0 h1;
+  Spec.ECDSA.changeEndianLemma (uints_from_bytes_be (as_seq h0 privKey));
+  uints_from_bytes_be_nat_lemma #U64 #_ #4 (as_seq h1 privKey);    
+  let flag = ecdsa_signature_core alg r s mLen m critical0 k critical1 in 
 
   let h2 = ST.get() in 
   
